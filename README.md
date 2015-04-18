@@ -1,9 +1,7 @@
-Unicornleap
+Rainicorn Leap
 ===========
 
-A reimplementaion of KevinLiddle/unicornleap using CoreAnimation. Forked from jgdavey/unicornleap.
-
-Added in a troll face to allow for either a unicorn or a troll face jumping across the screen.
+This is an implementation of jgdavey/unicornleap with an Adventure Time theme. Built on top of changes that I made in my fork of Unicornleap.
 
 Installation
 ------------
@@ -26,8 +24,8 @@ the PREFIX env variable.
 Usage
 -----
 
-Unicorn:
-    unicornleap
+Rainicorn:
+    rainicornleap
     
-Troll Face:
-    unicornleap -t
+Lemongrap:
+    rainicornleap -t
