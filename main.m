@@ -155,6 +155,8 @@ void animateImage() {
         audioName = @"sparkle.mp3";
     }
 
+    NSString *audioPath = [folder stringByAppendingPathComponent:audioName];
+
 
     NSString *imagePath = [folder stringByAppendingPathComponent:imageName];
     NSString *sparklePath = [folder stringByAppendingPathComponent:@"sparkle.png"];
@@ -194,7 +196,7 @@ void animateImage() {
 
     [view setWantsLayer:YES];
 
-    NSSound *sound = [[NSSound alloc] initWithContentsOfFile:audioName byReference:YES];
+    NSSound *sound = [[NSSound alloc] initWithContentsOfFile:audioPath byReference:YES];
 
     for (int i = 0; i < unicorns; i++) {
         layer = layerForImageWithSize(cgimage, imageSize);
